@@ -8,13 +8,13 @@
         "pyrogram"
     ],
     "env": {
-        "BOT_TOKEN": {
+        "BOT_TOKEN": "1841970536:AAHjJYNmwKT-CZw_2R9jFdFuHM482ZLOflA" {
             "description": "Your Bot token from @Botfather"
         },
-        "API_ID": {
+        "API_ID": "4072549" {
             "description": "Your API_ID from https://my.telegram.org/apps"
         },
-        "API_HASH": {
+        "API_HASH": "9004f340b4b8fde2a93ab021a130fe9b" {
             "description": "Your API_HASH from https://my.telegram.org/apps"
         }
     },
