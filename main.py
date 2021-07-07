@@ -25,7 +25,7 @@ bughunter0 = Client(
 
 @bughunter0.on_message(filters.command(["start"]))
 async def start(bot, update):
- txt = await update.reply_text("Welcome to Speed test bot !!\nSend me anything you want to check your internet speed..\n\nBot made by @GopalSaraf !")
+ txt = await update.reply_text(f"Welcome to Speed test bot !!\nSend me anything to check your internet speed..\n\nBot made by [Gopal](@GopalSaraf) !")
 
 @bughunter0.on_message(filters.private)
 async def download_upload(bot, message):
