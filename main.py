@@ -17,9 +17,9 @@ from pyrogram.types import User, Message
     
 bughunter0 = Client(
     "SpeedTestBot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    bot_token = "1841970536:AAHjJYNmwKT-CZw_2R9jFdFuHM482ZLOflA",
+    api_id = 4072549,
+    api_hash = "9004f340b4b8fde2a93ab021a130fe9b"
 )
 
 
