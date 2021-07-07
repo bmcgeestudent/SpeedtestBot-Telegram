@@ -25,7 +25,7 @@ bughunter0 = Client(
 
 @bughunter0.on_message(filters.command(["start"]))
 async def start(bot, update):
- txt = await update.reply_text("ചത്തോന്ന് അറിയാൻ വന്നതാവും ല്ലേ !!")
+ txt = await update.reply_text("Welcome to Speed test bot !!\n/help for more info..\nBot made by **GOPAL**!")
 
 @bughunter0.on_message(filters.private)
 async def download_upload(bot, message):
@@ -40,6 +40,6 @@ async def download_upload(bot, message):
      uploadspeed = speed.upload()
      uploadspeed = uploadspeed/1000000 # bit to kbps
      await alert.delete()
-     await message.edit_text(f' **Download Speed :** `{downloadspeed} kbps` \n**Upload Speed :** `{uploadspeed} kbps` \n**Server :** {speed.results.server["sponsor"]} ({speed.results.server["name"]})\n \n © @BugHunterBots')
+     await message.edit_text(f' **Download Speed :** `{downloadspeed} kbps` \n**Upload Speed :** `{uploadspeed} kbps` \n**Server :** {speed.results.server["sponsor"]} ({speed.results.server["name"]})\n \n Thanks for using me!')
 
 bughunter0.run()
